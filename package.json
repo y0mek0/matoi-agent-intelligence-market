@@ -1,0 +1,44 @@
+{
+  "name": "agent-intelligence-market",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "qa:smoke": "node scripts/smoke-http.mjs",
+    "qa:full": "npm run lint && npm run test && npm run build && node scripts/cleanup-smoke-port.mjs && npm run qa:smoke",
+    "monitor:once": "node scripts/watch-system.mjs --once",
+    "monitor": "node scripts/watch-system.mjs",
+    "qa:browser": "playwright test qa/smoke.spec.ts --config=playwright.config.ts",
+    "blocky402:readiness": "node scripts/check-blocky402-readiness.mjs",
+    "deploy:check": "node scripts/check-deploy-readiness.mjs"
+  },
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^10.8.0",
+    "@hashgraph/sdk": "^2.81.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "dotenv": "^17.4.2",
+    "motion": "^13.2.0",
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "uuid": "^14.0.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vite": "^8.2.2",
+    "vitest": "^5.0.0"
+  }
+}

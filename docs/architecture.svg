@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 780" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" fill="#e6e8ee">
+  <defs>
+    <linearGradient id="buyerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131a" />
+      <stop offset="100%" stop-color="#1a1d28" />
+    </linearGradient>
+    <linearGradient id="orchGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1d28" />
+      <stop offset="100%" stop-color="#232739" />
+    </linearGradient>
+    <linearGradient id="payGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#232739" />
+      <stop offset="100%" stop-color="#11131a" />
+    </linearGradient>
+    <linearGradient id="evidenceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11131a" />
+      <stop offset="100%" stop-color="#1a1d28" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b" />
+      <feMerge>
+        <feMergeNode in="b" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a890ff" />
+    </marker>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#7ce6c2" />
+    </marker>
+  </defs>
+  <rect width="1180" height="780" fill="#08090d" />
+  <text x="590" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#f0f2f8">Matoi — Agent Intelligence Market</text>
+  <text x="590" y="60" text-anchor="middle" font-size="12" fill="#7d8295">Arc / Circle DCW treasuries · Hedera x402 + Blocky402 facilitator · HCS audit · nanopayments · simulation-only</text>
+
+  <g>
+    <rect x="40" y="90" width="270" height="380" rx="14" fill="url(#buyerGrad)" stroke="#3a3f5c" stroke-width="1" />
+    <text x="175" y="114" text-anchor="middle" font-size="13" font-weight="700" fill="#a890ff">BUYER SIDE</text>
+
+    <rect x="60" y="138" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="175" y="161" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">Control Room UI</text>
+    <text x="175" y="178" text-anchor="middle" font-size="9" fill="#7d8295">Next.js 16 · React · TypeScript</text>
+    <text x="175" y="192" text-anchor="middle" font-size="9" fill="#7d8295">HTML + CSS modules · 5 scenarios</text>
+    <text x="175" y="206" text-anchor="middle" font-size="9" fill="#7d8295">Blocky402 toggle · A2A transcript</text>
+
+    <rect x="60" y="232" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="175" y="255" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">BuyerAgent</text>
+    <text x="175" y="272" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · scenario runner</text>
+    <text x="175" y="286" text-anchor="middle" font-size="9" fill="#7d8295">mission · budget · risk</text>
+    <text x="175" y="300" text-anchor="middle" font-size="9" fill="#7d8295">Nanopayments meter (TypeScript)</text>
+
+    <rect x="60" y="326" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="175" y="349" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">PolicyEngine · RiskGuard</text>
+    <text x="175" y="366" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · mainnet disabled</text>
+    <text x="175" y="380" text-anchor="middle" font-size="9" fill="#7d8295">realUsdcTransfer: false</text>
+    <text x="175" y="394" text-anchor="middle" font-size="9" fill="#7d8295">tradeExecution: "disabled"</text>
+  </g>
+
+  <g>
+    <rect x="335" y="90" width="270" height="380" rx="14" fill="url(#orchGrad)" stroke="#3a3f5c" stroke-width="1" />
+    <text x="470" y="114" text-anchor="middle" font-size="13" font-weight="700" fill="#a890ff">MISSION ORCHESTRATOR</text>
+
+    <rect x="355" y="138" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="470" y="161" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">/api/mission/run</text>
+    <text x="470" y="178" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · Next.js route</text>
+    <text x="470" y="192" text-anchor="middle" font-size="9" fill="#7d8295">runMission(x402Mode)</text>
+    <text x="470" y="206" text-anchor="middle" font-size="9" fill="#7d8295">discover · score · spend</text>
+
+    <rect x="355" y="232" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="470" y="255" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">/api/x402/blocky402/pay</text>
+    <text x="470" y="272" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · x402.org spec</text>
+    <text x="470" y="286" text-anchor="middle" font-size="9" fill="#7d8295">Hedera ECDSA secp256k1 signing</text>
+    <text x="470" y="300" text-anchor="middle" font-size="9" fill="#7d8295">3 BLOCKY402_* A2A messages</text>
+
+    <rect x="355" y="326" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="470" y="349" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">/api/x402/facilitator</text>
+    <text x="470" y="366" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · HMAC SHA-256</text>
+    <text x="470" y="380" text-anchor="middle" font-size="9" fill="#7d8295">challenge / settle / verify</text>
+    <text x="470" y="394" text-anchor="middle" font-size="9" fill="#7d8295">self-hosted Blocky402-compatible</text>
+  </g>
+
+  <g>
+    <rect x="630" y="90" width="270" height="380" rx="14" fill="url(#payGrad)" stroke="#3a3f5c" stroke-width="1" />
+    <text x="765" y="114" text-anchor="middle" font-size="13" font-weight="700" fill="#a890ff">PAYMENT RAILS</text>
+
+    <rect x="650" y="138" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="765" y="161" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">ArcTreasuryAgent</text>
+    <text x="765" y="178" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · Circle DCW API</text>
+    <text x="765" y="192" text-anchor="middle" font-size="9" fill="#7d8295">3 wallets: Trader / ArcResearch / Risk</text>
+    <text x="765" y="206" text-anchor="middle" font-size="9" fill="#7d8295">ARC-TESTNET USDC (CIRCLE tx)</text>
+
+    <rect x="650" y="232" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="765" y="255" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">@hashgraph/sdk signing</text>
+    <text x="765" y="272" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · Hedera SDK</text>
+    <text x="765" y="286" text-anchor="middle" font-size="9" fill="#7d8295">TransferTransaction (USDC 0.0.429274)</text>
+    <text x="765" y="300" text-anchor="middle" font-size="9" fill="#7d8295">hedera:testnet · ECDSA + ED25519</text>
+
+    <rect x="650" y="326" width="230" height="78" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="765" y="349" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">Arc spend ledger</text>
+    <text x="765" y="366" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · JSON file store</text>
+    <text x="765" y="380" text-anchor="middle" font-size="9" fill="#7d8295">PROVIDER_PAYMENT · NANOPAYMENT_SETTLED</text>
+    <text x="765" y="394" text-anchor="middle" font-size="9" fill="#7d8295">.data/arc-spend-ledger.json (idempotent)</text>
+  </g>
+
+  <g>
+    <rect x="925" y="90" width="215" height="380" rx="14" fill="url(#evidenceGrad)" stroke="#3a3f5c" stroke-width="1" />
+    <text x="1032" y="114" text-anchor="middle" font-size="13" font-weight="700" fill="#a890ff">PROVIDER SOURCES</text>
+
+    <rect x="945" y="138" width="175" height="50" rx="6" fill="#161924" stroke="#3a3f5c" />
+    <text x="1032" y="158" text-anchor="middle" font-size="10" font-weight="600" fill="#f0f2f8">TelegramPulse</text>
+    <text x="1032" y="173" text-anchor="middle" font-size="8" fill="#7d8295">Python · Telethon reader bridge</text>
+    <text x="1032" y="183" text-anchor="middle" font-size="8" fill="#7d8295">(separate tg-bot-41-18 repo)</text>
+
+    <rect x="945" y="196" width="175" height="50" rx="6" fill="#161924" stroke="#3a3f5c" />
+    <text x="1032" y="216" text-anchor="middle" font-size="10" font-weight="600" fill="#f0f2f8">TelegramNews</text>
+    <text x="1032" y="231" text-anchor="middle" font-size="8" fill="#7d8295">Python · news-intel.json cache</text>
+    <text x="1032" y="241" text-anchor="middle" font-size="8" fill="#7d8295">via /api/intel/news</text>
+
+    <rect x="945" y="254" width="175" height="50" rx="6" fill="#161924" stroke="#3a3f5c" />
+    <text x="1032" y="274" text-anchor="middle" font-size="10" font-weight="600" fill="#f0f2f8">CoinGecko</text>
+    <text x="1032" y="289" text-anchor="middle" font-size="8" fill="#7d8295">REST API · price / volume</text>
+    <text x="1032" y="299" text-anchor="middle" font-size="8" fill="#7d8295">public read · no key</text>
+
+    <rect x="945" y="312" width="175" height="50" rx="6" fill="#161924" stroke="#3a3f5c" />
+    <text x="1032" y="332" text-anchor="middle" font-size="10" font-weight="600" fill="#f0f2f8">DefiLlama + RSS + GitHub</text>
+    <text x="1032" y="347" text-anchor="middle" font-size="8" fill="#7d8295">REST · TVL · news · releases</text>
+    <text x="1032" y="357" text-anchor="middle" font-size="8" fill="#7d8295">deterministic fallback if down</text>
+
+    <rect x="945" y="370" width="175" height="50" rx="6" fill="#161924" stroke="#3a3f5c" />
+    <text x="1032" y="390" text-anchor="middle" font-size="10" font-weight="600" fill="#f0f2f8">OpenRouter evaluator</text>
+    <text x="1032" y="405" text-anchor="middle" font-size="8" fill="#7d8295">REST · schema-normalized</text>
+    <text x="1032" y="415" text-anchor="middle" font-size="8" fill="#7d8295">deterministic fallback</text>
+  </g>
+
+  <g>
+    <rect x="40" y="500" width="1100" height="240" rx="14" fill="#0e1018" stroke="#3a3f5c" stroke-width="1" />
+    <text x="590" y="524" text-anchor="middle" font-size="13" font-weight="700" fill="#a890ff">EVIDENCE · PUBLIC PROOFS · TELEMETRY</text>
+
+    <rect x="60" y="540" width="260" height="100" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="190" y="562" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">Trading Desk (sim)</text>
+    <text x="190" y="580" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · deterministic</text>
+    <text x="190" y="595" text-anchor="middle" font-size="9" fill="#7d8295">Momentum · MeanRev · RiskGuard</text>
+    <text x="190" y="610" text-anchor="middle" font-size="9" fill="#7ce6c2">BUY_SMALL_SIMULATED · HOLD</text>
+    <text x="190" y="625" text-anchor="middle" font-size="9" fill="#7ce6c2">execution: disabled · NO REAL SWAP</text>
+
+    <rect x="340" y="540" width="260" height="100" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="470" y="562" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">Redacted Audit Log</text>
+    <text x="470" y="580" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · JSONL append-only</text>
+    <text x="470" y="595" text-anchor="middle" font-size="9" fill="#7d8295">secrets stripped at source</text>
+    <text x="470" y="610" text-anchor="middle" font-size="9" fill="#7d8295">cycle_started · decision_produced</text>
+    <text x="470" y="625" text-anchor="middle" font-size="9" fill="#7d8295">blocky402_payment_settled</text>
+
+    <rect x="620" y="540" width="260" height="100" rx="8" fill="#161924" stroke="#3a3f5c" stroke-width="1.5" filter="url(#glow)" />
+    <text x="750" y="562" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">Hedera HCS Topic</text>
+    <text x="750" y="580" text-anchor="middle" font-size="9" fill="#7d8295">0.0.10426202 (testnet)</text>
+    <text x="750" y="595" text-anchor="middle" font-size="9" fill="#7d8295">@hashgraph/sdk ConsensusSubmitMessage</text>
+    <text x="750" y="610" text-anchor="middle" font-size="9" fill="#7ce6c2">public hashscan.io proofs</text>
+    <text x="750" y="625" text-anchor="middle" font-size="9" fill="#7ce6c2">allowlist-only payloads</text>
+
+    <rect x="900" y="540" width="220" height="100" rx="8" fill="#161924" stroke="#3a3f5c" />
+    <text x="1010" y="562" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">Agent Directory</text>
+    <text x="1010" y="580" text-anchor="middle" font-size="9" fill="#7d8295">TypeScript · discovery v1</text>
+    <text x="1010" y="595" text-anchor="middle" font-size="9" fill="#7d8295">buyer · provider · source</text>
+    <text x="1010" y="610" text-anchor="middle" font-size="9" fill="#7d8295">risk · audit · trading</text>
+    <text x="1010" y="625" text-anchor="middle" font-size="9" fill="#7d8295">no secrets exposed</text>
+
+    <text x="590" y="668" text-anchor="middle" font-size="10" fill="#7d8295">Mainnet disabled · real USDC transfer disabled by default · LLM impact-bounded · raw provider text not stored</text>
+    <text x="590" y="688" text-anchor="middle" font-size="11" font-weight="600" fill="#f0f2f8">Public tunnel (Cloudflared anonymous):</text>
+    <text x="590" y="708" text-anchor="middle" font-size="10" fill="#a890ff" font-family="monospace">https://mix-comp-royalty-gordon.trycloudflare.com</text>
+    <text x="590" y="726" text-anchor="middle" font-size="9" fill="#7d8295">POST /api/x402/blocky402/pay · POST /api/mission/run · POST /api/audit/hcs · GET /api/agents/directory</text>
+  </g>
+
+  <g stroke="#a890ff" stroke-width="1.4" fill="none" marker-end="url(#arrow)">
+    <path d="M 310 178 L 335 178" />
+    <path d="M 310 272 L 335 272" />
+    <path d="M 310 366 L 335 366" />
+  </g>
+  <g stroke="#a890ff" stroke-width="1.4" fill="none" marker-end="url(#arrow)">
+    <path d="M 605 178 L 630 178" />
+    <path d="M 605 272 L 630 272" />
+    <path d="M 605 366 L 630 366" />
+  </g>
+  <g stroke="#7ce6c2" stroke-width="1.4" fill="none" marker-end="url(#arrow2)">
+    <path d="M 900 272 L 925 305" />
+    <path d="M 900 366 L 925 405" />
+  </g>
+  <g stroke="#a890ff" stroke-width="1.4" fill="none" marker-end="url(#arrow)">
+    <path d="M 765 418 L 765 540" />
+    <path d="M 470 418 L 470 540" />
+    <path d="M 190 416 L 190 540" />
+  </g>
+</svg>

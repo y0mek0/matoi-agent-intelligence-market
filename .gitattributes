@@ -1,0 +1,22 @@
+node_modules/
+.next/
+.env
+.env.local
+.env*.local
+*.pem
+*.key
+*.tsbuildinfo
+.DS_Store
+
+# Local runtime
+/.data/
+/.hermes/
+/.claude/
+/.cursor/
+
+# Local debug dumps
+mission-*.json
+direct-*.json
+page.html
+QA_*.json
+qa-*.log
